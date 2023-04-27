@@ -15,8 +15,8 @@ and gcd(φ(n), e) = 1
 5. Calculate for the private exponent a value for d such that
 d = e
 −1 mod φ(n)
-6. P ublic Key = [e, n]
-7. P rivate Key = [d, n]
+6. Public Key = [e, n]
+7. Private Key = [d, n]
 
 **Then**, divide the input message into blocks of defined **BLOCK_SIZE** and use padding if necessary.
 
