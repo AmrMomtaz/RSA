@@ -1,6 +1,6 @@
 # RSA
 
-[RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) (Rivest–Shamir–Adleman) is a public-key encryption algorithm that is based on the difficulty of factoring the product of two large prime numbers. The security of RSA is based on the assumption that it is computationally infeasible to factor the product of two large primes. It can be used to encrypt and decrypt messages of arbitrary length. However, RSA is not typically used as a block cipher.
+[RSA](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) (Rivest–Shamir–Adleman) is a public-key encryption algorithm that is based on the difficulty of factoring the product of two large prime numbers which assumes that it is computationally infeasible to factor them. It can be used to encrypt and decrypt messages of arbitrary length. However, RSA is not typically used as a block cipher.
 
 This notebook contains a full implementation of the algorithm from scratch. You can configure keys and block sizes and define a message (with any size) to be encrypted (Please note that the bigger the key size the longer it takes to finish execution. At key size 4096 bits it took 16 mins to finish which is the last run made on the notebook).
 
